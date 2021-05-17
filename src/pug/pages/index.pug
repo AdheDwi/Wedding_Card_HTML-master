@@ -1,0 +1,79 @@
+extends ../layouts/default-layout.pug
+block content
+  .main-content
+    .section-banner
+      .block-date
+        h3.text-date 09.01
+        p.text-caption Save The Date
+      .block-banner
+        .image-center
+          img(src="./assets/images/mainimage.jpg", alt="banner")
+    .section-body
+      .body-text.white.text-center
+        .container
+          h3.person John & Karen
+          p.note marriage
+          .sparator-body
+          p.date saturday, 2 feb 2019. 2:00 PM
+          p.loc Jogja Expo Center, Yogyakarta
+      .body-text.grey.text-center
+        .container
+          .box-text
+            p From that belief, 
+            p and I met a person who wants to give faith. 
+            p I 
+            p want to start a beautiful home rooted in that faith . 
+            p If you bless with a warm heart, 
+            p I will keep you with more joy.
+      .body-text.contact.text-center
+        .container
+          .d-flex.align-items-center.justify-content-center.icon-block
+            .icon-men
+              img(src="./assets/images/icon/face_m.png", alt="")
+            .icon-women
+              img(src="./assets/images/icon/face_w.png", alt="")
+          .full-name-box.d-flex.align-items-center.justify-content-center
+            .box-groom
+              h2 John Rihardi
+              p Mr. Nurhadi Rihardi
+              p Mrs. Nuryati Riharti 
+            .box-and
+              h2 &
+            .box-bride
+              h2 Karen Susilawati
+              p Mr.  Aldo Susanto
+              p Mrs. Aldinanti Susanti
+    .section-gallery
+      .box-gallery
+        .title
+          h3 Gallery
+        .image-wrap
+          figure
+            a.image-items(style="background: url(./assets/images/gallery/01.jpg)")
+          figure
+            a.image-items(style="background: url(./assets/images/gallery/02.jpg)")
+          figure
+            a.image-items(style="background: url(./assets/images/gallery/03.jpg)")
+          figure
+            a.image-items(style="background: url(./assets/images/gallery/04.jpg)")
+          figure
+            a.image-items(style="background: url(./assets/images/gallery/05.jpg)")
+          figure
+            a.image-items(style="background: url(./assets/images/gallery/06.jpg)")
+    .section-location
+      .box-map.white
+        .title
+          h3 Location
+        .map-wrap
+          iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.908981349221!2d110.40229431485639!3d-7.799460694379449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a575dd9a1912b%3A0xfe00120aebe7a884!2sGrha+Pradipta+Jogja+Expo+Center!5e0!3m2!1sid!2sid!4v1546958179501" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen)
+      .box-contact.grey
+        .contact
+          .text
+            h6 Jogja Expo Center, Yogyakarta
+            p Jalan Janti, Jl. Wonocatur, Wonocatur, Banguntapan, Bantul, Daerah Istimewa Yogyakarta 55198
+          .text
+            h6 Date
+            p Saturday, 02 February 2019. 02:00 PM
+          .text
+            h6 Contact
+            p +62 890-3212-4444

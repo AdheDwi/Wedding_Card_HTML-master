@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css?family=Sarabun:100,200,300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Sarabun", sans-serif;
+  color: #666666; }
+
+footer {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #575757; }
+  footer p {
+    color: #ffffff;
+    font-size: 16px; }
+
+.main-content {
+  background-color: #ffffff;
+  margin: 0;
+  width: 100%; }
+
+.section-banner {
+  padding: 0 40px 0;
+  max-height: 100vh; }
+  .section-banner .block-date {
+    padding: 50px 0 50px; }
+    .section-banner .block-date .text-date {
+      font-size: 42px;
+      font-weight: 500;
+      color: #262626; }
+      .section-banner .block-date .text-date.name {
+        font-family: "Great Vibes, cursive"; }
+    .section-banner .block-date .text-caption {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: 200;
+      text-transform: uppercase; }
+  .section-banner .block-banner {
+    margin: 0 auto;
+    width: 100%;
+    padding: 70px 0 0; }
+    .section-banner .block-banner .image-center {
+      display: flex;
+      justify-content: center;
+      margin: auto; }
+
+.section-body .body-text {
+  width: 100%; }
+  .section-body .body-text .person {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0 0 5px;
+    text-transform: capitalize; }
+  .section-body .body-text .note {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 100; }
+  .section-body .body-text .sparator-body {
+    content: "";
+    width: 1px;
+    height: 120px;
+    background-color: #555;
+    margin: 50px auto; }
+  .section-body .body-text .date,
+  .section-body .body-text .loc {
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: capitalize; }
+  .section-body .body-text .box-text {
+    margin: 0 auto;
+    text-align: center; }
+    .section-body .body-text .box-text p {
+      font-size: 14px;
+      margin: 3px 0;
+      font-weight: 300;
+      color: #252525; }
+  .section-body .body-text.white {
+    background-color: #ffffff;
+    padding: 230px 0; }
+  .section-body .body-text.grey {
+    background-color: #f7f7f7;
+    padding: 50px 0; }
+  .section-body .body-text.contact {
+    background-color: #ffffff;
+    padding: 50px 0; }
+  .section-body .body-text .icon-block {
+    margin: 30px 0 70px; }
+  .section-body .body-text .full-name-box {
+    margin: 0 0 30px; }
+    .section-body .body-text .full-name-box .box-groom,
+    .section-body .body-text .full-name-box .box-bride {
+      width: calc(50% - 50px);
+      text-align: center; }
+      .section-body .body-text .full-name-box .box-groom h2,
+      .section-body .body-text .full-name-box .box-bride h2 {
+        margin: 0 0 10px; }
+      .section-body .body-text .full-name-box .box-groom p,
+      .section-body .body-text .full-name-box .box-bride p {
+        line-height: 1.5; }
+    .section-body .body-text .full-name-box .box-and {
+      width: 100px;
+      text-align: center;
+      font-family: "Lobster, cursive"; }
+      .section-body .body-text .full-name-box .box-and h2 {
+        font-size: 64px; }
+
+.section-gallery {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #f7f7f7; }
+  .section-gallery .box-gallery {
+    margin: 0 20px 20px; }
+    .section-gallery .box-gallery .title {
+      margin: 0 0 20px;
+      padding: 0 10px; }
+      .section-gallery .box-gallery .title h3 {
+        font-weight: 600;
+        font-size: 24px;
+        text-transform: uppercase; }
+  .section-gallery .image-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .section-gallery .image-wrap figure {
+      width: 33.33%;
+      padding: 10px;
+      overflow: hidden;
+      margin: 0; }
+      .section-gallery .image-wrap figure a {
+        display: block;
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important; }
+
+.section-location {
+  width: 100%;
+  padding: 50px 0; }
+  .section-location .title {
+    margin: 0 20px 20px;
+    padding: 0 10px; }
+    .section-location .title h3 {
+      font-weight: 600;
+      font-size: 24px;
+      text-transform: uppercase; }
+  .section-location .box-map.white {
+    background-color: #ffffff; }
+  .section-location .box-map.grey {
+    background-color: #f7f7f7; }
+  .section-location .box-contact {
+    padding: 30px 20px 0; }
+    .section-location .box-contact .contact {
+      padding: 0 0 0 10px; }
+      .section-location .box-contact .contact .text {
+        margin: 0 0 10px; }
+        .section-location .box-contact .contact .text h6 {
+          font-size: 16px;
+          font-weight: 500; }
+        .section-location .box-contact .contact .text p {
+          font-size: 16px;
+          font-weight: 300; }
+
+@media (max-width: 1024.9px) {
+  .section-gallery .image-wrap figure a {
+    height: 280px; } }
+
+@media (max-width: 768.9px) {
+  .section-gallery .image-wrap figure a {
+    height: 200px; } }
+
+@media (max-width: 411.9px) {
+  .section-banner {
+    padding: 0 20px 0; }
+    .section-banner .block-date {
+      padding: 20px 0 0px; }
+      .section-banner .block-date .text-date {
+        font-size: 36px; }
+      .section-banner .block-date .text-caption {
+        font-size: 14px; }
+    .section-banner .block-banner {
+      padding: 40px 0 0; }
+      .section-banner .block-banner .image-center img {
+        width: 100%;
+        height: 100%; }
+  .section-body .body-text {
+    width: 100%; }
+    .section-body .body-text .person {
+      font-size: 28px; }
+    .section-body .body-text .note {
+      font-size: 16px; }
+    .section-body .body-text .sparator-body {
+      content: "";
+      height: 70px;
+      margin: 40px auto; }
+    .section-body .body-text .date,
+    .section-body .body-text .loc {
+      font-size: 14px; }
+    .section-body .body-text .box-text p {
+      font-size: 12px; }
+    .section-body .body-text.white {
+      padding: 50px 0; }
+    .section-body .body-text.grey {
+      padding: 40px 0; }
+    .section-body .body-text.contact {
+      padding: 40px 0; }
+    .section-body .body-text .icon-block {
+      margin: 10px 0 40px; }
+    .section-body .body-text .full-name-box {
+      flex-wrap: wrap !important; }
+      .section-body .body-text .full-name-box .box-groom {
+        text-align: right !important;
+        margin-bottom: 15px; }
+      .section-body .body-text .full-name-box .box-bride {
+        text-align: left !important;
+        margin-top: 15px; }
+      .section-body .body-text .full-name-box .box-groom,
+      .section-body .body-text .full-name-box .box-bride {
+        width: 100%;
+        text-align: center; }
+        .section-body .body-text .full-name-box .box-groom h2,
+        .section-body .body-text .full-name-box .box-bride h2 {
+          margin: 0 0 10px;
+          font-size: 24px; }
+        .section-body .body-text .full-name-box .box-groom p,
+        .section-body .body-text .full-name-box .box-bride p {
+          font-size: 14px; }
+      .section-body .body-text .full-name-box .box-and {
+        width: 100%; }
+        .section-body .body-text .full-name-box .box-and h2 {
+          font-size: 42px; }
+  .section-gallery {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #f7f7f7; }
+    .section-gallery .box-gallery {
+      margin: 0 20px 0; }
+      .section-gallery .box-gallery .title {
+        margin: 0 0 10px;
+        padding: 0; }
+        .section-gallery .box-gallery .title h3 {
+          font-size: 18px; }
+    .section-gallery .image-wrap {
+      width: 100%; }
+      .section-gallery .image-wrap figure {
+        width: 100%;
+        padding: 0 0 10px; }
+        .section-gallery .image-wrap figure a {
+          width: 100%;
+          height: 335px; }
+  .section-location {
+    width: 100%;
+    padding: 20px 0; }
+    .section-location .title {
+      margin: 0 20px 10px;
+      padding: 0 0px; }
+      .section-location .title h3 {
+        font-size: 18px; }
+    .section-location .box-contact {
+      padding: 20px 20px 0; }
+      .section-location .box-contact .contact {
+        padding: 0; }
+        .section-location .box-contact .contact .text {
+          margin: 0 0 10px; }
+          .section-location .box-contact .contact .text h6 {
+            font-size: 14px; }
+          .section-location .box-contact .contact .text p {
+            font-size: 14px; } }
